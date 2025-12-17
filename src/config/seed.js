@@ -17,7 +17,7 @@ const seedAdminUser = async () => {
 
     // Hash the password
     const hashedPassword = await bcrypt.hash("Admin@123", 10);
-    console.log(hashedPassword);
+    // console.log(hashedPassword);
     
 
     // Insert admin user
